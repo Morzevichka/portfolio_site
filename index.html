@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MySite</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="app">
+      <header id="menu" class="container-fluid py-2 fixed-top">
+        <div class="d-flex justify-content-between align-items-center px-5">
+            <h3 class="mb-0" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+              <a href="#" class="nav-link text-white">Igor Solovev</a>
+            </h3>
+            <nav class="navbar navbar-expand-sm">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a href="#introduction" class="nav-link text-white">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#experience" class="nav-link text-white">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#projects" class="nav-link text-white">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#skills" class="nav-link text-white">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="#contact-me" class="nav-link text-white">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+      </header>
+
+      <main id="page-load" class="text-center" data-spy="scroll" data-target=".navbar" data-offset="50">
+        <span class="anchor" id="introduction"></span>
+        <div class="container py-5">
+          <h1>Hello Everyone, I'm Igor!</h1>
+          <hr id="under-title" class="mt-4">
+          <img width="240" src="https://via.placeholder.com/150" class="rounded-circle shadow mt-5" alt="Profile Image">
+          <div class="mt-4">
+            <p>
+              Hey! I'm Igor. Currently I'm a second year student in Applied Informatics at SUAI. I have a passion in computer vision and enjoy create useful CV tools for everyday tasks. Welcome to my personal website where you can learn more about my projects, skills, and how to get in touch with me.
+            </p>
+            <p>In everyday life I'm attracted to volleyball, computer games and things which can make world easier.</p>
+          </div>
+          <div class="mt-4">
+            <a href="https://github.com/Morzevichka" target="_blank" class="mx-2">
+              <img width="32" src="assets/github.svg" alt="GitHub" id="social">
+            </a>
+            <a href="https://www.instagram.com/frenesi_______" target="_blank" class="mx-2">
+              <img width="32" src="assets/instagram.svg" alt="Instagram" id="social">
+            </a>
+            <a href="https://www.kaggle.com/morzevichka" target="_blank" class="mx-2">
+              <img width="32" src="assets/kaggle.svg" alt="Kaggle" id="social">
+            </a>
+            <a href="https://www.linkedin.com/in/igor-solovev-0300a72b9" target="_blank" class="mx-2">
+              <img width="32" src="assets/linkedin.svg" alt="LinkedIn" id="social">
+            </a>
+          </div>
+        </div>
+        <span class="anchor" id="experience"></span>
+        <div id="background-fill">
+          <div class="container py-5">
+            <h3>Experience</h3>
+            <hr id="under-title" class="mt-4">
+            <div class="mt-5">
+              <p>Coming soon!</p>
+            </div>
+          </div>
+        </div>
+        <span class="anchor" id="projects"></span>
+        <div class="container py-5">
+          <h3>Projects</h3>
+          <hr id="under-title" class="mt-4">
+          <div id="project-container" class="d-flex gap-4 mt-5 justify-content-center overflow-x-auto">
+            <a href="https://github.com/Morzevichka/CutItUp" class="nav-link" target="_blank">
+              <div id="project-card" class="card">
+                <img
+                  class="card-img-top"
+                  src="images/nope-you-don-t-need-third-party-tools-to-download-instagram-reels.avif"
+                  alt="Cut It Up"/>
+                <div class="card-body">
+                  <h5 class="card-title">Cut It Up</h5>
+                  <p class="card-text">Service for creating reels using AI tools.</p>
+                </div>
+              </div>
+            </a>
+            <a href="https://github.com/Morzevichka/clips_project" class="nav-link" target="_blank">
+              <div id="project-card" class="card">
+                <img
+                  class="card-img-top"
+                  src="images/Benefits-Of-Instagram-Reels-For-Business-banner-1.jpg" 
+                  alt="Project Title"/>
+                <div class="card-body">
+                  <h5 class="card-title">Clip Project</h5>
+                  <p class="card-text">Python Notebook for training reels models.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <span class="anchor" id="skills"></span>
+        <div id="background-fill">
+          <div class="container py-5">
+            <h3>Skills</h3>
+            <hr id="under-title" class="my-4">
+            <div id="icons-container" class="d-flex justify-content-center mt-5">
+              <img width="48" src="assets/skills/python.svg" alt="python" id="skills" class="mx-2">
+              <img width="48" src="assets/skills/pytorch.svg" alt="pytorch" id="skills" class="mx-2">
+              <img width="48" src="assets/skills/sklearn.svg" alt="sklearn" id="skills" class="mx-2">
+              <img width="48" src="assets/skills/pandas.svg" alt="pandas" id="skills" class="mx-2">
+              <img width="48" src="assets/skills/sql.svg" alt="sql" id="skills" class="mx-2">
+              <img width="48" src="assets/skills/git.svg" alt="git" id="skills" class="mx-2">
+            </div>
+          </div>
+        </div>
+        <span class="anchor" id="contact-me"></span>
+        <div class="container py-5">
+          <h3>Chat with me!</h3>
+          <hr id="under-title" class="mt-4">
+          <div class="mt-5">
+            <a href="https://vk.me/morzevichka" target="_blank">
+              <img width="32" src="assets/vk.svg" alt="VK" class="mx-2" id="social">
+            </a>
+            <a href="https://t.me/morzevichka" target="_blank">
+              <img width="32" src="assets/tg.svg" alt="TG" class="mx-2" id="social">
+            </a>
+          </div>
+        </div>
+      </main>
+
+      <footer class="p-3" style="background-color: #6c757dfc;">
+        <div class="container-fluid text-center">
+          <p class="mb-0">&copy; 2025 Igor Solovev. All rights reserved. <a href="https://github.com/morzevichka" target="_blank" style="color: black">Source Code</a></p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.3.4/dist/vue.global.js"></script>
+    <script>
+      const { createApp } = Vue;
+
+      createApp({
+        data() {
+          return {};
+        },
+        methods: {},
+      }).mount("#app");
+
+      function checkOverflow() {
+        const container = document.getElementById('project-container');
+        
+        if (container.scrollWidth > container.clientWidth) {
+          container.style.justifyContent = 'flex-start';
+        } else {
+          container.style.justifyContent = 'center';
+        }
+      }
+
+      window.addEventListener('load', checkOverflow);
+      window.addEventListener('resize', checkOverflow);
+    </script>
+  </body>
+</html>
