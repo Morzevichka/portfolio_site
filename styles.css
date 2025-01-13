@@ -7,7 +7,11 @@ header#menu {
   z-index: 1000;
 }
 
-hr#under-title { 
+.navbar a.nav-link:hover {
+  color: rgb(172, 172, 172) !important;
+}
+
+hr { 
   width: 90px;
   background-color: #6c757df9; 
   margin: auto;
@@ -28,32 +32,32 @@ main {
   visibility: hidden;
 }
 
-div#background-fill { 
+.background-fill { 
   background-color: rgb(245, 245, 245);
 }
 
-#social:hover {
+.social:hover {
   transform: scale(1.2);
   transition: transform 0.2s;
 }
 
-#skills:hover { 
+.skills:hover { 
   transform: scale(1.15);
   transition: transform 0.2s;
 }
 
 /* PROJECT SECTION */
-div#project-card:hover { 
+#project-container .card:hover { 
   transform: scale(1.05);
   transition: transform 0.2s;
 }
 
-div#project-container { 
+#project-container { 
   scroll-behavior: smooth;
   padding: 10px 0 15px 0;
 }
 
-div#project-container .card { 
+#project-container .card { 
   width: 200px;
   height: 300px;
   flex-shrink: 0;
@@ -62,7 +66,7 @@ div#project-container .card {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-div#project-container img { 
+#project-container img { 
   width: 100%; 
   height: 50%; 
   object-fit: cover;
@@ -70,8 +74,10 @@ div#project-container img {
   border-top-right-radius: 8px;
 }
 
-div#project-container .card-title, 
-div#project-container .card-text {
+#project-container .card-title, 
+#project-container .card-text {
   word-wrap: break-word;
   white-space: normal;
 }
+
+
